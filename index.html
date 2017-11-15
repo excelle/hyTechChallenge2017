@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>HackerYou Tech Challenge!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css"/>
@@ -290,73 +290,93 @@
 		</div>
 	</section>
 
-	<section>
-		<div class="contactLeft">
-			<img src="assets/ff_logo_black.png" alt="ff.">
-			<h3>Lorem Ipsumsz</h3>
+	<section class="wrapper flex contacts">
+		<div class="flex contactLeft">
+			<div>
+				<img src="assets/ff_logo_black.png" alt="ff.">
+			</div>
+			<h2>Lorem Ipsumsz</h2>
 		</div>
 		<div class="contactRight">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam soluta nisi explicabo fuga accusantium velit, sint nobis molestias facere, quos quae ad voluptates ducimus error. Beatae ipsa, nam ad magni? Neque vitae aperiam veritatis ipsam.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam soluta nisi explicabo fuga accusantium velit, sint nobis molestias facere, quos quae ad voluptates ducimus error. Beatae ipsa, nam ad magni? Neque vitae aperiam veritatis ipsamy.</p>
 			<div class="contactUs">Contact Us</div>
 		</div>
 	</section>
 	
 	<footer>
-		
-		<div class="footer">
-			<div class="firstFooter">
-				<img src="assets/ff_logo_white.png" alt="ff.">
-				<p>Lorem Ipsumsz</p>
-				<div class="social">
-					<img src="assets/fb_icon.png" alt="Facebook">
-					<img src="assets/" alt="Twitter">
-					<img src="assets/linkedin_icon.png" alt="Linkedin">
+		<div class="flex wrapper footer">
+			<div class="flex">
+				<div class="flex col firstFooter">
+					<div class="flex row footerLogo">
+						<div class="flex col">
+							<img src="assets/ff_logo_white.png" alt="ff.">
+						</div>
+						<p>Lorem Ipsumsz</p>	
+					</div>
+					<div class="flex social">
+						<div class="flex socialIcon">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</div>
+						<div class="flex socialIcon">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</div>
+						<div class="flex socialIcon">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</div>
+						
+						<!-- <img src="assets/fb_icon.png" alt="Facebook">
+						<img src="assets/" alt="Twitter">
+						<img src="assets/linkedin_icon.png" alt="Linkedin"> -->
+
+						<!-- I replaced the social icons with fontawesome since twitter icon was not provided in the assets and for them to be more uniform -->
+
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="footerLinks">
-			<ul>
-				<li><p>Ipsumz</p></li>
-				<li><p>About</p></li>
-				<li><p>Career</p></li>
-				<li><p>Portfolio</p></li>
-				<li><p>Services</p></li>
-				<li><p>Jobs</p></li>
-				<li><p>Contacts</p></li>
-			</ul>
-		</div>
+			<div class="footerLinks">
+				<ul>
+					<li><p>Ipsumz</p></li>
+					<li><p>About</p></li>
+					<li><p>Career</p></li>
+					<li><p>Portfolio</p></li>
+					<li><p>Services</p></li>
+					<li><p>Jobs</p></li>
+					<li><p>Contacts</p></li>
+				</ul>
+			</div>
 
-		<div class="footerLinks">
-			<ul>
-				<li><p class="footerTitle">Comunitez</p></li>
-				<li><p>Links</p></li>
-				<li><p>About</p></li>
-				<li><p>Career</p></li>
-				<li><p>Press</p></li>
-				<li><p>News</p></li>
-			</ul>
-		</div>
+			<div class="footerLinks">
+				<ul>
+					<li><p class="footerTitle">Comunitez</p></li>
+					<li><p>Links</p></li>
+					<li><p>About</p></li>
+					<li><p>Career</p></li>
+					<li><p>Press</p></li>
+					<li><p>News</p></li>
+				</ul>
+			</div>
 
-		<div class="footerLinks">
-			<ul>
-				<li><p class="footerTitle">Exploreq</p></li>
-				<li><p>Siteuka</p></li>
-				<li><p>Leagel</p></li>
-				<li><p>Terms</p></li>
-				<li><p>Services</p></li>
-			</ul>
-		</div>
+			<div class="explore footerLinks">
+				<ul>
+					<li><p class="footerTitle">Exploreq</p></li>
+					<li><p>Siteuka</p></li>
+					<li><p>Leagel</p></li>
+					<li><p>Terms</p></li>
+					<li><p>Services</p></li>
+				</ul>
+			</div>
 
-		<div class="subscribe">
-			<form action="">
-				<p class="footerTitle">Subriscue</p>
-				<input type="text">
-				<button><p>Subscribe</p></button>
-			</form>
-		</div>
+			<div class="flex col subscribe">
+				<form class="flex col form" action="">
+					<label class="footerTitle" for="subscribe">Subriscue</label>
+					
+					<input id="email" type="email" class="email" name="" placeholder="your email address">
 
-	</footer>
-
+					<button class="white"><p>Subscribe</p></button>
+				</form>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>

@@ -18,7 +18,7 @@ img {
 
 .wrapper {
 	width: 85%;
-	margin: 100px auto;
+	margin: 50px auto;
 }
 
 .headerNav {
@@ -359,5 +359,135 @@ h2 {
 
 .packageDiv {
 	flex-direction: column;
-	width: 60%;
+	width: 80%;
+}
+
+.contacts {
+	flex-direction: row;
+	padding-bottom: 100px;
+}
+
+.contactLeft,
+.contactRight {
+	flex-direction: column;
+}
+
+.contactLeft {
+	width: 33.33%;
+}
+
+.contactLeft h2 {
+	margin-top: 30px; 
+}
+
+.contactRight {
+	margin-left: 150px;
+	color: #7a7a7a;
+	font-size: 1.5em;
+}
+
+footer {
+	background: black;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+}
+
+.footer {
+	justify-content: space-between;
+	color: white;
+	text-transform: uppercase;
+	padding-top: 100px;
+}
+
+.firstFooter {
+	/*min-width: 500px;*/
+	/*height: 100%;*/
+}
+
+.footerLogo {
+	margin-bottom: auto;
+}
+
+.footerLogo p {
+	text-transform: none;
+	font-size: 1.5em;
+	margin: 0 0 0 20px;
+	width: 100px;
+	font-weight: bold;
+}
+
+.footerLogo div {
+	margin-top: 5px;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.col {
+	flex-direction: column;
+}
+
+footer li {
+	list-style: none;
+}
+
+.social {
+	margin-top: auto;
+}
+
+.socialIcon {
+	background: #252525;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	margin-right: 10px;
+	justify-content: center;
+	align-items: center;	
+}
+
+.footerLinks p,
+.footerLinks ul {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.footerLinks {
+	font-weight: bold;
+	text-transform: none;
+
+}
+
+.footerLinks li:nth-child(1),
+.footerTitle {
+	color: #505050;
+	text-transform: uppercase;
+}
+
+.footerTitle {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.subscribe {
+	width: 25%;
+}
+
+.email {
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 15px;
+	background: black;
+	border: solid 3px #959595;
+	font-family: 'Poppins', sans-serif;
+}
+
+.explore p {
+	text-transform: uppercase;
+}
+
+button {
+	border: none;
+	font-weight: bold;
+	width: 40%;
 }
