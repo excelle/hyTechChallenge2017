@@ -133,7 +133,7 @@ h2 {
 	font-size: 20px;
 }
 
-.serviceSect {
+.greyBg {
 	background: #ececec;
 	padding-bottom: 50px;
 }
@@ -241,4 +241,67 @@ h2 {
 	justify-content: center;
 	font-weight: bold;
 	margin-top: 50px;
+}
+
+.package {
+	flex-direction: row;
+	/*align-items: center;*/
+	justify-content: space-between;
+}
+
+.packages {
+	background: plum;
+	border: 1px black solid;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+
+.white {
+	background: white;
+}
+
+.packName {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.price {
+	flex-direction: row;
+	border-bottom: solid 1px #dadada;
+	padding-bottom: 20px;
+	justify-content: center;
+}
+
+.price1{
+	font-weight: bold;
+	padding-top: 12%;
+	margin: 0 10px;
+}
+
+.price2 {
+	font-size: 80px;
+	font-weight: bold;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.price3 {
+	font-weight: bold;
+	margin-top: auto;
+	margin-bottom: 10%;
+	margin-left: 5px;
+}
+
+.order {
+	font-size: 1.1em;
+	font-weight: bold;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px 60px;
+}
+
+.trial {
+	text-align: center;
 }
