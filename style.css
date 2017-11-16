@@ -24,6 +24,7 @@ img {
 .headerNav {
 	width: 100%;
 	justify-content: flex-end;
+	z-index: 1;
 }
 
 .headerNav li {
@@ -612,7 +613,68 @@ button {
 }
 
 @media (max-width: 768px) {
+	
+	.featNum p {
+		font-size: 250px;
+		margin-top: 50px;
+		margin-right: 15px;
+	}
 
+	.featTitles h1 {
+		font-size: 75px;
+		line-height: 80px;
+	}
+
+	.featTitles p {
+		width: 90%;
+	}
+
+	.featImage img {
+		max-width: 100%;
+	}
+
+	.package {
+		flex-direction: column;
+		/*width: 100%;*/
+	}
+	
+	.packages {
+		width: 100%;
+		align-items: flex-start;
+		padding: 30px;
+		height: 320px;
+		margin-bottom: 50px;
+		flex-direction: column;
+	}
+
+	.packageDiv {
+		flex-direction: row;
+		margin: 0 auto;
+	}
+
+	.packName {
+		margin: 0;
+		padding: 0;
+	}
+
+	.price {
+		margin-left: 20px;
+		border: none;
+	}
+
+	.packageFeats {
+		margin-left: 30px;
+	}
+
+	.order {
+		margin: 0 auto;
+		margin-top: auto;
+	}
+
+	.bestDeal {
+		top: 20px;
+		right: -50px;
+	}
 }
 
 @media (max-width: 480px) {
