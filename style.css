@@ -18,7 +18,7 @@ img {
 
 .wrapper {
 	width: 85%;
-	margin: 50px auto;
+	margin: 100px auto;
 }
 
 .headerNav {
@@ -59,7 +59,7 @@ footer a {
 }
 
 .featTitles {
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 	flex-direction: column;
 }
 
@@ -79,7 +79,8 @@ footer a {
 	height: 500px;
 	margin-left: auto;
 	margin-right: -30px;
-	padding-left: 100px;
+	margin-top: -100px;
+	/*padding-left: 100px;*/
 }
 
 .featNum p {
@@ -502,6 +503,7 @@ footer li {
 .footerTitle {
 	margin-bottom: 20px;
 	font-weight: bold;
+	color: #505050;
 }
 
 .subscribe {
@@ -537,6 +539,84 @@ button {
 	border: none;
 	font-weight: bold;
 	width: 40%;
+}
+
+@media (max-width:1142px) {
+	.featNum p {
+		font-size: 300px;
+		margin: auto;
+	}
+}
+
+@media (max-width: 940px) {
+	.wrapper {
+		margin: 50px auto;
+	}
+
+	.featHeader {
+		height: 300px;
+	}
+
+	.featTitles h1 {
+		font-size: 100px;
+		line-height: 90px;
+	}
+
+	.featNum p {
+		margin-top: 40px;
+		margin-right: 10px;
+	}
+
+	.price2 {
+		font-size: 90px;
+	}
+
+	.bestDeal {
+		width: 100px;
+		height: 100px;
+		top: -50px;
+	}
+
+	.order {
+		padding: 5px 20px;
+	}
+
+	.contactLeft div {
+		/*margin: 0 auto;*/
+	}
+
+	.footer {
+		flex-flow: column wrap;
+		height: 500px;
+	}
+
+	.social {
+		margin-top: 30px;
+	}
+
+	.footerLinks ul {
+		padding: 0;
+	}
+
+	.subscribe {
+		flex-grow: 5;
+	}
+	
+	.email {
+		width: 250px;
+	}
+
+	.sub {
+		width: 70%;
+	}
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 480px) {
+
 }
 
 @font-face {
