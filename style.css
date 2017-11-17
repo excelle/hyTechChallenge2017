@@ -823,7 +823,7 @@ button {
 		padding-left: 0;
 	}
 
-	
+
 	.featImage {
 		height: 200px;
 	}
@@ -894,8 +894,79 @@ button {
 	}
 }
 
-@media (max-width: 480px) {
+@media (max-width: 437px) {
+
+	.headerNav ul {
+		padding: 0;
+		flex-flow: row wrap;
+	}
+
+	.featNum {
+		visibility: hidden;
+	}
+
+	.featImage {
+		height: 100px;
+		margin-top: 40px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	.package {
+		margin: 0 auto;
+		padding-top: 50px;
+	}
 	
+	
+	.footer {
+		/*flex-flow: wrap column;*/
+		/*height: 1000px;*/
+		/*height: 500px;*/
+		/*position: relative;*/
+	}
+
+	footer {
+		/*padding-bottom: 180px;*/
+	}
+
+	.footerLinks {
+		/*width: 100px;*/
+		/*margin-top: 50px;*/
+	}
+
+	.subscribe {
+		position: absolute;
+		bottom: -210px;
+		left: 0px;
+		width: 200px;
+	}
+
+	.fL1 ul {
+		position: absolute;
+		bottom: 10px;
+		right: 30px;
+	}
+
+	.fL2 ul {
+		position: absolute;
+		bottom: 100px;
+		left: 0;
+	}
+
+	.explore {
+		position: absolute;
+		bottom: -50px;
+		left: 0;
+	}
+
+	.footerPad {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}
+
 }
 
 @font-face {
