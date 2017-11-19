@@ -60,7 +60,6 @@ footer a {
 }
 
 .featTitles {
-	/*margin-top: 100px;*/
 	flex-direction: column;
 }
 
@@ -81,7 +80,6 @@ footer a {
 	margin-left: auto;
 	margin-right: -30px;
 	margin-top: -100px;
-	/*padding-left: 100px;*/
 }
 
 .featNum p {
@@ -180,7 +178,6 @@ h2 {
 }
 
 .services {
-	/*justify-content: space-between;*/
 	margin-top: 80px;
 }
 
@@ -334,8 +331,6 @@ button.white:hover {
 .price2 {
 	font-size: 150px;
 	font-weight: bold;
-	/*padding-top: 0;*/
-	/*margin-top: 0;*/
 }
 
 .price3 {
@@ -429,11 +424,6 @@ footer {
 	color: white;
 	text-transform: uppercase;
 	padding-top: 100px;
-}
-
-.firstFooter {
-	/*min-width: 500px;*/
-	/*height: 100%;*/
 }
 
 .footerLogo {
@@ -582,10 +572,6 @@ button {
 		padding: 5px 20px;
 	}
 
-	.contactLeft div {
-		/*margin: 0 auto;*/
-	}
-
 	.footer {
 		flex-flow: column wrap;
 		height: 500px;
@@ -631,7 +617,6 @@ button {
 
 	.package {
 		flex-direction: column;
-		/*width: 100%;*/
 	}
 	
 	.packages {
@@ -679,9 +664,7 @@ button {
 	}
 
 	.headerNav {
-		/*width: 100%;*/
 		flex-wrap: wrap;
-		/*flex-flow: column wrap;*/
 	}
 
 	.headerNav ul {
@@ -731,7 +714,6 @@ button {
 		margin-left: 50px;
 		width: 100px;
 		margin: -10px 0 0 20px;
-		/*padding: 0;*/
 	}
 
 	.contactRight {
@@ -749,14 +731,10 @@ button {
 
 @media (max-width: 711px) {
 	.packages {
-		/*margin: 0;*/
-		/*padding: 0;*/
 		height: 420px;
 	}
 
 	.packageDiv {
-		/*margin: 0;*/
-		/*padding: 0;*/
 		flex-direction: column;
 	}
 
@@ -902,6 +880,8 @@ button {
 	}
 
 	.featNum {
+		position: absolute;
+		left: 0;
 		visibility: hidden;
 	}
 
@@ -917,23 +897,6 @@ button {
 	.package {
 		margin: 0 auto;
 		padding-top: 50px;
-	}
-	
-	
-	.footer {
-		/*flex-flow: wrap column;*/
-		/*height: 1000px;*/
-		/*height: 500px;*/
-		/*position: relative;*/
-	}
-
-	footer {
-		/*padding-bottom: 180px;*/
-	}
-
-	.footerLinks {
-		/*width: 100px;*/
-		/*margin-top: 50px;*/
 	}
 
 	.subscribe {
@@ -967,6 +930,23 @@ button {
 		left: 0px;
 	}
 
+	.navRes {
+		position: absolute;
+		width: 250px;
+		left: 0;
+	}
+	
+	.navR {
+		margin-left: auto;
+	}
+
+	.navL {
+		margin-left: 0;
+	}
+
+	.featTitles {
+		margin-top: 65px;
+	}
 }
 
 @font-face {
